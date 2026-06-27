@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PUREBIN LI | Trash Bin Cleaning in Baldwin, NY</title>
+  <meta name="description" content="PUREBIN LI provides professional trash bin cleaning, sanitizing, and odor removal in Baldwin and Long Island. 1 bin $20, 2 bins $30, additional bins $10, monthly service $25/month." />
+  <link rel="icon" href="public/logo.jpeg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home"><img src="public/logo.jpeg" alt="PUREBIN logo"><span>PUREBIN LI</span></a>
+    <nav>
+      <a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#book">Book</a><a href="#faq">FAQ</a>
+    </nav>
+    <a class="call" href="tel:5166706599">Call 516-670-6599</a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Based in Baldwin, NY • Serving Long Island</p>
+        <h1>Your trash bins deserve a fresh start.</h1>
+        <p class="sub">Professional trash bin cleaning that leaves your bins fresh, sanitized, and odor-free.</p>
+        <div class="actions"><a class="btn primary" href="#book">Schedule Cleaning</a><a class="btn secondary" href="#quote">Get Instant Quote</a></div>
+        <div class="trust"><span>Eliminates odors</span><span>Kills 99.9% of bacteria</span><span>Eco-friendly</span></div>
+      </div>
+      <div class="hero-art"><img src="public/flyer.jpeg" alt="PUREBIN trash bin cleaning flyer"></div>
+    </section>
+
+    <section id="services" class="section">
+      <p class="eyebrow">Our services</p>
+      <h2>Clean bins, healthier homes.</h2>
+      <div class="cards">
+        <article class="card"><h3>Trash Bin Sanitizing</h3><p>We deep clean and sanitize your bins inside and out after pickup day.</p></article>
+        <article class="card"><h3>Odor Removal</h3><p>Helps remove the smell at the source so your bins stay fresher.</p></article>
+        <article class="card"><h3>Monthly Service</h3><p>Hassle-free recurring cleanings so you never have to think about it.</p></article>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing">
+      <div><p class="eyebrow">Simple pricing</p><h2>No hidden fees.</h2><p>Choose a one-time cleaning or lock in monthly service.</p></div>
+      <div class="price-grid">
+        <div class="price-card"><span>One-Time</span><h3>1 Bin</h3><strong>$20</strong></div>
+        <div class="price-card featured"><span>Popular</span><h3>2 Bins</h3><strong>$30</strong></div>
+        <div class="price-card"><span>Add-ons</span><h3>Additional Bin</h3><strong>+$10</strong></div>
+        <div class="price-card monthly"><span>Best Value</span><h3>Monthly Service</h3><strong>$25/mo</strong></div>
+      </div>
+    </section>
+
+    <section id="quote" class="section quote-box">
+      <div><p class="eyebrow">Instant quote</p><h2>Calculate your price.</h2></div>
+      <label>Number of bins <input id="bins" type="number" min="1" value="2"></label>
+      <label class="check"><input id="monthly" type="checkbox"> Monthly service</label>
+      <div class="total">Estimated total: <strong id="total">$30</strong></div>
+    </section>
+
+    <section class="section split">
+      <div><p class="eyebrow">How it works</p><h2>Book in under 60 seconds.</h2><ol><li>Choose your service.</li><li>Leave bins outside after trash pickup.</li><li>We clean, sanitize, and deodorize.</li><li>You enjoy fresh, odor-free bins.</li></ol></div>
+      <div class="badge">100% Satisfaction Goal</div>
+    </section>
+
+    <section id="book" class="section booking">
+      <p class="eyebrow">Book now</p><h2>Schedule your first cleaning.</h2>
+      <form action="https://formsubmit.co/purebinli@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New PUREBIN LI Booking Request">
+        <input type="hidden" name="_captcha" value="false">
+        <input name="Name" placeholder="Full name" required>
+        <input name="Phone" placeholder="Phone number" required>
+        <input name="Email" placeholder="Email address" type="email" required>
+        <input name="Address" placeholder="Service address" required>
+        <select name="Service Type"><option>One-time cleaning</option><option>Monthly service - $25/month</option></select>
+        <input name="Number of bins" placeholder="Number of bins" type="number" min="1" required>
+        <input name="Preferred date" type="date">
+        <textarea name="Notes" placeholder="Notes or pickup day"></textarea>
+        <button class="btn primary" type="submit">Send Booking Request</button>
+      </form>
+      <p class="small">First time using the form, FormSubmit may send a confirmation email to purebinli@gmail.com to activate it.</p>
+    </section>
+
+    <section id="faq" class="section faq">
+      <p class="eyebrow">FAQ</p><h2>Questions people ask.</h2>
+      <details><summary>Do I need to be home?</summary><p>No. Just leave your bins accessible outside.</p></details>
+      <details><summary>When should I book?</summary><p>Book after your normal trash pickup so the bins are empty.</p></details>
+      <details><summary>Where are you based?</summary><p>PUREBIN is based in Baldwin, NY and serves Long Island.</p></details>
+    </section>
+  </main>
+
+  <footer><strong>PUREBIN LI</strong><span>Fresh. Sanitized. Odor-free.</span><a href="tel:5166706599">516-670-6599</a></footer>
+  <a class="float" href="tel:5166706599">Call Now</a>
+  <script src="script.js"></script>
+</body>
+</html>
